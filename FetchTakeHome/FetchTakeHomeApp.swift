@@ -2,7 +2,7 @@
 //  FetchTakeHomeApp.swift
 //  FetchTakeHome
 //
-//  Created by Mike on 8/28/24.
+//  Created by Mike on 9/2/24.
 //
 
 import SwiftUI
@@ -11,7 +11,10 @@ import SwiftUI
 struct FetchTakeHomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                MealListView(viewModel: .init())
+                    .navigationTitle("Desserts")
+            }
         }
     }
 }

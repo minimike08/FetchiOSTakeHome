@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27ECFEEF2C7FD619007DD784 /* dessertResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 27ECFEEE2C7FD619007DD784 /* dessertResults.json */; };
+		27ECFEF12C7FD6BD007DD784 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEF02C7FD6BD007DD784 /* Meal.swift */; };
+		27ECFEF52C7FD874007DD784 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEF42C7FD874007DD784 /* Helpers.swift */; };
+		27ECFEFA2C7FDC8A007DD784 /* MealListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEF92C7FDC8A007DD784 /* MealListCell.swift */; };
+		27ECFEFC2C868563007DD784 /* MealFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEFB2C868563007DD784 /* MealFetcher.swift */; };
+		27ECFEFE2C86ACD5007DD784 /* desertDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 27ECFEFD2C86ACD5007DD784 /* desertDetails.json */; };
+		27ECFF002C86AF3E007DD784 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFEFF2C86AF3E007DD784 /* MealDetails.swift */; };
+		27ECFF022C86BA21007DD784 /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFF012C86BA21007DD784 /* MealDetailsView.swift */; };
+		27ECFF042C86BE76007DD784 /* CachableAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECFF032C86BE76007DD784 /* CachableAsyncImage.swift */; };
 		27F9A3052C7FD0F900230DC4 /* FetchTakeHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A3042C7FD0F900230DC4 /* FetchTakeHomeApp.swift */; };
-		27F9A3072C7FD0F900230DC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A3062C7FD0F900230DC4 /* ContentView.swift */; };
+		27F9A3072C7FD0F900230DC4 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A3062C7FD0F900230DC4 /* MealListView.swift */; };
 		27F9A3092C7FD0FA00230DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F9A3082C7FD0FA00230DC4 /* Assets.xcassets */; };
 		27F9A30C2C7FD0FA00230DC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F9A30B2C7FD0FA00230DC4 /* Preview Assets.xcassets */; };
 		27F9A3162C7FD0FA00230DC4 /* FetchTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F9A3152C7FD0FA00230DC4 /* FetchTakeHomeTests.swift */; };
@@ -34,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27ECFEEE2C7FD619007DD784 /* dessertResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dessertResults.json; sourceTree = "<group>"; };
+		27ECFEF02C7FD6BD007DD784 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		27ECFEF42C7FD874007DD784 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		27ECFEF92C7FDC8A007DD784 /* MealListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListCell.swift; sourceTree = "<group>"; };
+		27ECFEFB2C868563007DD784 /* MealFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealFetcher.swift; sourceTree = "<group>"; };
+		27ECFEFD2C86ACD5007DD784 /* desertDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = desertDetails.json; sourceTree = "<group>"; };
+		27ECFEFF2C86AF3E007DD784 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
+		27ECFF012C86BA21007DD784 /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
+		27ECFF032C86BE76007DD784 /* CachableAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachableAsyncImage.swift; sourceTree = "<group>"; };
 		27F9A3012C7FD0F900230DC4 /* FetchTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F9A3042C7FD0F900230DC4 /* FetchTakeHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTakeHomeApp.swift; sourceTree = "<group>"; };
-		27F9A3062C7FD0F900230DC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27F9A3062C7FD0F900230DC4 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
 		27F9A3082C7FD0FA00230DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F9A30B2C7FD0FA00230DC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27F9A3112C7FD0FA00230DC4 /* FetchTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27ECFEF62C7FDC20007DD784 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				27ECFEEE2C7FD619007DD784 /* dessertResults.json */,
+				27ECFEFD2C86ACD5007DD784 /* desertDetails.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		27F9A2F82C7FD0F900230DC4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				27F9A3042C7FD0F900230DC4 /* FetchTakeHomeApp.swift */,
-				27F9A3062C7FD0F900230DC4 /* ContentView.swift */,
+				27F9A3062C7FD0F900230DC4 /* MealListView.swift */,
+				27ECFEF92C7FDC8A007DD784 /* MealListCell.swift */,
+				27ECFF012C86BA21007DD784 /* MealDetailsView.swift */,
+				27ECFF032C86BE76007DD784 /* CachableAsyncImage.swift */,
 				27F9A3082C7FD0FA00230DC4 /* Assets.xcassets */,
 				27F9A30A2C7FD0FA00230DC4 /* Preview Content */,
+				27ECFEF02C7FD6BD007DD784 /* Meal.swift */,
+				27ECFEFF2C86AF3E007DD784 /* MealDetails.swift */,
+				27ECFEFB2C868563007DD784 /* MealFetcher.swift */,
 			);
 			path = FetchTakeHome;
 			sourceTree = "<group>";
@@ -114,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				27F9A3152C7FD0FA00230DC4 /* FetchTakeHomeTests.swift */,
+				27ECFEF42C7FD874007DD784 /* Helpers.swift */,
+				27ECFEF62C7FDC20007DD784 /* JSON */,
 			);
 			path = FetchTakeHomeTests;
 			sourceTree = "<group>";
@@ -240,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ECFEEF2C7FD619007DD784 /* dessertResults.json in Resources */,
+				27ECFEFE2C86ACD5007DD784 /* desertDetails.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F9A3072C7FD0F900230DC4 /* ContentView.swift in Sources */,
+				27ECFEFA2C7FDC8A007DD784 /* MealListCell.swift in Sources */,
+				27ECFF002C86AF3E007DD784 /* MealDetails.swift in Sources */,
+				27F9A3072C7FD0F900230DC4 /* MealListView.swift in Sources */,
+				27ECFEF12C7FD6BD007DD784 /* Meal.swift in Sources */,
 				27F9A3052C7FD0F900230DC4 /* FetchTakeHomeApp.swift in Sources */,
+				27ECFEFC2C868563007DD784 /* MealFetcher.swift in Sources */,
+				27ECFF022C86BA21007DD784 /* MealDetailsView.swift in Sources */,
+				27ECFF042C86BE76007DD784 /* CachableAsyncImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F9A3162C7FD0FA00230DC4 /* FetchTakeHomeTests.swift in Sources */,
+				27ECFEF52C7FD874007DD784 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
