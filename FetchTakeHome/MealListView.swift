@@ -41,7 +41,7 @@ class MealListViewModel: ObservableObject {
     init() {
         Task { @MainActor in
             if let mealList = await fetcher.fetchDesserts() {
-                self.meals = mealList.meals
+                self.meals = mealList.meals.sorted { $0.name < $1.name }
             }
             isLoading = false
         }
